@@ -5,7 +5,7 @@ function Header() {
     <>
     <header>
         <span>Подключите ваш кошелек: </span>
-        <TonConnectButton />
+        <TonConnectButton className="ton-connect-button" style={{float: "right"}}/>
     </header>
     </>
   );
